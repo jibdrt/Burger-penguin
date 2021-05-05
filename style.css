@@ -1,0 +1,146 @@
+.nav{
+
+    background-color: none;
+    font-size: 45px;
+    width: fit-content;
+  
+
+
+}
+
+body{
+    background-image: url(moon.jpg);
+
+}
+
+
+
+.nav__item{
+
+    text-decoration: none;
+    font-family: 'rubik';
+    color: white;
+    font-size: 55px;
+
+
+}
+
+#ho:hover{
+    color: rgb(223, 187, 27);
+}
+
+
+#mo:hover{
+    color: rgb(223, 187, 27);
+}
+
+#fu:hover{
+    color: rgb(223, 187, 27);
+}
+
+#he:hover{
+    color: rgb(223, 187, 27);
+}
+
+
+#bg{
+    width: 35px;
+    border-radius: 5px;
+    margin-left: 20px;
+    position: absolute;
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width:1600px) {
+    #bg{
+        display: none;
+    }
+}
+
+@media only screen and (max-width:805px) {
+    #bg{
+        display: block;
+        margin-top: 20px;
+    }
+}
+
+
+@media screen and (max-width:805px) {
+    #burgerlist{
+        display: block;
+        color: rgb(0, 0, 0);
+    }
+}
+
+
+@media screen and (min-width:805px) {
+    #burgerlist{
+        display: none;
+        color: rgb(0, 0, 0);
+    }
+}
+
+.burgerlist__style{
+    border: black 1px solid;
+    padding-top: 5px;
+    height: 35px;
+    width: 500px;
+    background-color: #222222;
+    color: white;
+    font-family: 'rubik';
+    text-align: center;
+}
+
+.cancelblue{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+
+.pipe{
+    color: white;
+}
+
+
+@media screen and (max-width:805px) {
+    .pipe{
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+#ping{
+    width: 70px;
+    margin-left: 125px;
+    border-radius: 35px;
+    margin-top: 8px;
+    box-shadow: #222222 10px 10px 10px;
+
+}
+
+
+
+
+
+@media screen and (max-width:805px) {
+    #ping{
+        margin-left: 425px;
+        width: 45px;
+    }
+}
+
+@media screen and (max-width:805px) {
+    .nav__item{
+        display: none;
+    }
+}
+
