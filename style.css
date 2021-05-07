@@ -1,16 +1,22 @@
-.nav{
+#nav{
 
     background-color: none;
     font-size: 45px;
     width: fit-content;
+    box-shadow: #FFFFFF 50;
   
 
 
 }
 
+.hidden{
+    display: none !important;
+}
+
+
 body{
     background-image: url(moon.jpg);
-
+    overflow-x: hidden;
 }
 
 
@@ -19,27 +25,14 @@ body{
 
     text-decoration: none;
     font-family: 'rubik';
-    color: white;
+    color: rgb(194, 194, 194);
     font-size: 55px;
 
 
 }
 
-#ho:hover{
-    color: rgb(223, 187, 27);
-}
-
-
-#mo:hover{
-    color: rgb(223, 187, 27);
-}
-
-#fu:hover{
-    color: rgb(223, 187, 27);
-}
-
-#he:hover{
-    color: rgb(223, 187, 27);
+.nav__item:hover{
+    color: rgb(255, 255, 255);
 }
 
 
@@ -49,6 +42,7 @@ body{
     margin-left: 20px;
     position: absolute;
     cursor: pointer;
+    
 }
 
 
@@ -81,6 +75,7 @@ body{
     }
 }
 
+
 .burgerlist__style{
     border: black 1px solid;
     padding-top: 5px;
@@ -92,11 +87,30 @@ body{
     text-align: center;
 }
 
+.burgerlist__style:hover{
+transform: scale(1.2);
+    
+}
+
+
+
+
+a:link{
+    text-decoration: none;
+}
+
+
+
+
+
 .cancelblue{
     text-decoration: none;
     color: white;
 }
 
+.cancelblue:hover{
+    color: white;
+}
 
 
 
@@ -124,6 +138,7 @@ body{
     border-radius: 35px;
     margin-top: 8px;
     box-shadow: #222222 10px 10px 10px;
+    overflow: hidden;
 
 }
 
@@ -135,6 +150,7 @@ body{
     #ping{
         margin-left: 425px;
         width: 45px;
+        overflow: hidden;
     }
 }
 
@@ -144,3 +160,36 @@ body{
     }
 }
 
+@font-face {
+    font-family: 'rubik';
+    src: url('Rubik-Regular.ttf');
+}
+
+
+#container{
+    display: flex;
+
+    width: 1000px;
+    color: white;
+    align-items: center;
+    margin:auto;
+    margin-top: 200px;
+    font-family: 'rubik';
+
+}
+
+
+.testflex{
+    display: flex;
+}
+
+@media (max-width:500px) {
+    #container{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        width: 500px;
+
+    }
+    
+}

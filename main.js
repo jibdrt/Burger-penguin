@@ -7,9 +7,18 @@ function test() {
     } else {
       x.style.display = 'none';
     }
-
-    
   };
+
+  window.addEventListener('resize', onResize);
+
+  function onResize(){
+      if(window.innerWidth > 570) {
+          document.getElementById('burgerlist').classList.add('hidden');
+      }else{
+        document.getElementById('burgerlist').classList.remove('hidden');
+      }
+  }
+
 
 
 
