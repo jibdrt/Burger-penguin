@@ -20,11 +20,11 @@
 
         <span class="pipe">|</span>
         
-        <a href="" class="nav__item" id="mo">More</a>
+        <a href="" class="nav__item" id="mo">Topics</a>
         <span class="pipe">|</span>
-        <a href="" class="nav__item" id="fu">Find Us</a>
+        <a href="" class="nav__item" id="fu">Articles</a>
         <span class="pipe">|</span>
-        <a href="" class="nav__item" id="he">Help</a>
+        <a href="" class="nav__item" id="he">About</a>
 
 
 
@@ -38,8 +38,23 @@
             <div class="burgerlist__style"><a href="" class="cancelblue">Help</a></div>
         </div>
 
+    <div class="container">
+        <p><p>
+        </div>
+            
+        <div class="containerS">
+            <div class="whiteY flameY"></div>                
+        </div>
+        <div class="containerT">
+            <div class="white flame"></div>                
+        </div>
+        <div class="containerBig">
+            <div class="whiteb flame"></div>                
+        </div>
 
 
+
+        
 <div id="container">
     
     <span class="testflex"><p>Etiam volutpat volutpat sapien vel tincidunt. Fusce quis ipsum commodo, ultrices turpis a, mattis odio. Donec vehicula lorem eu nisi ullamcorper, at laoreet purus laoreet. Aliquam eu ex magna. Curabitur ac pretium nulla. Integer dignissim libero risus, a tempor est gravida eget. Pellentesque sit amet mi a est ultricies scelerisque non at arcu.<p></span>
@@ -47,6 +62,60 @@
     <span class="testflex"><p>Etiam volutpat volutpat sapien vel tincidunt. Fusce quis ipsum commodo, ultrices turpis a, mattis odio. Donec vehicula lorem eu nisi ullamcorper, at laoreet purus laoreet. Aliquam eu ex magna. Curabitur ac pretium nulla. Integer dignissim libero risus, a tempor est gravida eget. Pellentesque sit amet mi a est ultricies scelerisque non at arcu.<p></span>
     
 </div>
+
+<div id="parallax"></div>
+
+
+<footer class="bg-white text-center text-black">
+  <!-- Grid container -->
+  <div class="container p-4 pb-0">
+    <!-- Section: Social media -->
+    <section class="mb-4">
+      <!-- Facebook -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-facebook-f"></i
+      ></a>
+
+      <!-- Twitter -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-twitter"></i
+      ></a>
+
+      <!-- Google -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-google"></i
+      ></a>
+
+      <!-- Instagram -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-instagram"></i
+      ></a>
+
+      <!-- Linkedin -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-linkedin-in"></i
+      ></a>
+
+      <!-- Github -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-github"></i
+      ></a>
+    </section>
+    <!-- Section: Social media -->
+  </div>
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: white">
+    © 2020 Copyright:
+    <a class="text-white" href="https://mdbootstrap.com/"></a>
+  </div>
+  <!-- Copyright -->
+</footer>
+
+
+
+
 
     
 </body>
