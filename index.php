@@ -11,49 +11,6 @@
 
 
 
-
-
-<!-- <div class="global">
-
-    
-
-
-          <div class="sub_secwrap">
-          </div>
-          <div class="main">
-              <div class="square"><h>HELLO</h></div>
-          </div>
-          <div class="sub_secwrap">
-          </div>
-
-
-
-
-</div>
-
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/vanta@0.5.21/dist/vanta.waves.min.js"></script>
-
-<script>
-  VANTA.WAVES({el :'.main',
-    color: 0x22846,
-    cloudShadowColor: 0x2222222,
-      shininess: 150.00
-  })
-</script>
-
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
-  <script>
-                $(document).ready(function(){
-                $(".main").click(function(){
-                    $(".square").load("project_square.php").slideToggle(1500);
-                });
-                });
-  </script> -->
-
   <div class="div_scroll">
 
               <div class="content name">
