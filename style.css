@@ -35,7 +35,7 @@
 .content h1 span:hover
 {
     cursor:default;
-    color: #222222;
+/*     color: #222222 */;
 }
 .content h1:hover{cursor:default;}
 
@@ -86,6 +86,43 @@
 .square h2{
     margin-top: 25%;
 }
+
+
+.project{
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+}
+
+
+.project:hover{
+
+    transition: 4s;
+
+
+}
+
+
+
+.project:hover::after{
+
+    content: "ROJECTS";
+}
+.project:not(:hover){
+    animation-delay: 2s;
+    transition: 4s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* .square:hover{
     transition: 1s;

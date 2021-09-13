@@ -31,7 +31,7 @@
                       <span class="bgc">T</span>
                       <span class="bgc">E</span>
                       <div></div>
-
+                      <div id="sidespace"></div>
                       <span class="dot">
                         <span class="bgc">D</span>
                         <span class="bgc">R</span>
@@ -44,7 +44,7 @@
 
     </div>
 
-    <div id="sidespace"></div>
+
 
 
     <canvas class="frame"></canvas>
@@ -60,7 +60,10 @@
         <script>
                 $(document).ready(function(){
                 $(".project").click(function(){
-                    $("#sidespace").load("sidepage.php").toggle(1500);
+                    $("#sidespace").load("sidepage.php").toggle(1000);
+                });
+                $("body").click(function(){
+                    $("#sidecontent").toggle(1000);
                 });
                 });
         </script>
