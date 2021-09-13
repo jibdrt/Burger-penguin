@@ -35,9 +35,26 @@
 .content h1 span:hover
 {
     cursor:default;
-    color:black;
+    color: #222222;
 }
 .content h1:hover{cursor:default;}
+
+.brmobile{display:none;}
+
+@media screen and (max-width: 600px) {
+    .bgc, .dot{
+        font-size: 32px !important;
+    }
+    .dot{
+        margin-left: 0;
+    }
+    .sep{
+        display: none;
+    }
+    .brmobile{
+        display: block !important;
+    }
+}
 
 .global{
     display: grid;
@@ -81,7 +98,6 @@
 } */
 
 *{
-
     margin: 0;
     padding: 0;
 }

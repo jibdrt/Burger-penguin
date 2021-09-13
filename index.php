@@ -20,7 +20,8 @@
                       <span class="bgc">E</span>
                       <span class="bgc">A</span>
                       <span class="bgc">N</span>
-                      <span class="bgc">-</span>
+                      <span class="bgc sep">-</span>
+                      <br class="brmobile">
                       <span class="bgc">B</span>
                       <span class="bgc">A</span>
                       <span class="bgc">P</span>
@@ -31,7 +32,13 @@
                       <span class="bgc">E</span>
                       <div></div>
 
-                      <span class="dot">DRUET</span>
+                      <span class="dot">
+                        <span class="bgc">D</span>
+                        <span class="bgc">R</span>
+                        <span class="bgc">U</span>
+                        <span class="bgc">E</span>
+                        <span class="bgc">T</span>
+                      </span>
                   </h1>
               </div>
 
@@ -42,6 +49,7 @@
 
     <canvas class="frame"></canvas>
     <script src="main.js"></script>
+
 
 
 
