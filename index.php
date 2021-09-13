@@ -24,7 +24,7 @@
                       <br class="brmobile">
                       <span class="bgc">B</span>
                       <span class="bgc">A</span>
-                      <span class="bgc">P</span>
+                      <span class="bgc project">P</span>
                       <span class="bgc">T</span>
                       <span class="bgc">I</span>
                       <span class="bgc">S</span>
@@ -44,7 +44,7 @@
 
     </div>
 
-
+    <div id="sidespace"></div>
 
 
     <canvas class="frame"></canvas>
@@ -55,6 +55,15 @@
 
 
 <div></div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script>
+                $(document).ready(function(){
+                $(".project").click(function(){
+                    $("#sidespace").load("sidepage.php").toggle(1500);
+                });
+                });
+        </script>
     
 </body>
 </html>
