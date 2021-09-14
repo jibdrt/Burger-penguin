@@ -35,7 +35,14 @@
 .content h1 span:hover
 {
     cursor:default;
-/*     color: #222222 */;
+
+    color: #222222;
+
+}
+.content h1 span:not(:hover)
+{
+    transition: 2s;
+
 }
 .content h1:hover{cursor:default;}
 
@@ -88,33 +95,20 @@
 }
 
 
-.project{
+/* .project{
     writing-mode: vertical-lr;
     text-orientation: upright;
+    transform-origin: bottom;
+
+} */
+
+
+
+
+
+.switch_project{
+    letter-spacing: -20px;
 }
-
-
-.project:hover{
-
-    transition: 4s;
-
-
-}
-
-
-
-.project:hover::after{
-
-    content: "ROJECTS";
-}
-.project:not(:hover){
-    animation-delay: 2s;
-    transition: 4s;
-}
-
-
-
-
 
 
 

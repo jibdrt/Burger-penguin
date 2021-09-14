@@ -15,7 +15,18 @@
 
               <div class="content name">
                   <h1>
-
+                        <div class="switch_project">
+                            <span class="bgc">P</span>
+                            <span class="bgc">O</span>
+                            <span class="bgc">R</span>
+                            <span class="bgc">T</span>
+                            <span class="bgc">F</span>
+                            <span class="bgc">O</span>
+                            <span class="bgc">L</span>
+                            <span class="bgc">I</span>
+                            <span class="bgc">O</span>
+                        </div>
+                        <br>
                       <span class="bgc">J</span>
                       <span class="bgc">E</span>
                       <span class="bgc">A</span>
@@ -56,6 +67,7 @@
 
 <div></div>
 
+
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script>
                 $(document).ready(function(){
@@ -66,6 +78,17 @@
                     $("#sidecontent").toggle(1000);
                 });
                 });
+        </script>
+        <script>
+
+            $(document).ready(function(){
+                $('.switch_project').hover(function(){
+                    $(this).text('PROJECTS').slideDown(200); //text to be shown on hover state
+                    },function(){
+                    $(this).text('PORTFOLIO').slideDown(200); //text to be seen when not in hover state
+                    });
+            });
+
         </script>
 
 </body>
