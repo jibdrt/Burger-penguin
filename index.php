@@ -90,6 +90,13 @@
             });
 
         </script>
+        <script>
+            $(document).ready(function(){
+                $('.switch_project').click(function(){
+                    $('body').toggle(600).show(1200);
+                });
+            });
+        </script>
 
 </body>
 </html>
