@@ -96,6 +96,7 @@
                     $('body').toggle(600).show(1200);
                 });
             });
+            /* can be used for page transition */
         </script>
 
 </body>
