@@ -13,18 +13,14 @@
 
   <div class="div_scroll">
 
+    <div class="topgap"></div>
+        <div class="spaceproject"></div>
+
               <div class="content name">
                   <h1>
                         <div class="switch_project">
-                            <span class="bgc">P</span>
-                            <span class="bgc">O</span>
-                            <span class="bgc">R</span>
-                            <span class="bgc">T</span>
-                            <span class="bgc">F</span>
-                            <span class="bgc">O</span>
-                            <span class="bgc">L</span>
-                            <span class="bgc">I</span>
-                            <span class="bgc">O</span>
+                            <span class="bgc">PORTFOLIO</span>
+
                         </div>
                         <br>
                       <span class="bgc">J</span>
@@ -50,6 +46,8 @@
                         <span class="bgc">E</span>
                         <span class="bgc">T</span>
                       </span>
+                      <br>
+                      <span class="about">A PROPOS</span>
                   </h1>
               </div>
 
@@ -70,33 +68,33 @@
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script>
+
+
                 $(document).ready(function(){
-                $(".project").click(function(){
-                    $("#sidespace").load("sidepage.php").toggle(1000);
-                });
-                $("body").click(function(){
-                    $("#sidecontent").toggle(1000);
-                });
-                });
-        </script>
-        <script>
 
-            $(document).ready(function(){
-                $('.switch_project').hover(function(){
-                    $(this).text('PROJECTS').slideDown(200); //text to be shown on hover state
-                    },function(){
-                    $(this).text('PORTFOLIO').slideDown(200); //text to be seen when not in hover state
+ /*                    ---------------------------------------------------- */
+
+                    $(".about").click(function(){
+                        $("#sidespace").load("sidepage.php").toggle(1000);
                     });
-            });
+                    $("#sidespace").click(function(){
+                        $("#sidecontent").toggle(1000);
+                    });
 
-        </script>
-        <script>
-            $(document).ready(function(){
-                $('.switch_project').click(function(){
-                    $('body').toggle(600).show(1200);
+/*                     ---------------------------------------------------- */
+
+                    $('.switch_project').hover(function(){
+                        $(this).text('PROJECTS').slideDown(200);
+                        },function(){
+                        $(this).text('PORTFOLIO').slideDown(200);
+                        });
+
+/*                     ---------------------------------------------------- */
+
+                        $('.switch_project').click(function(){
+                            $('.spaceproject').load("projectpage.php").toggle(1200);
+                        });
                 });
-            });
-            /* can be used for page transition */
         </script>
 
 </body>
