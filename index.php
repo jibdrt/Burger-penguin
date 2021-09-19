@@ -9,7 +9,14 @@
 </head>
 <body>
 
-
+  <a id="slide-button" class="menu-button btn mb-2" href="#"><i class="fas fa-map-marker-alt"></i> Menu</a>
+   <div id="local-navbar" class="local-navbar card card-body">                
+            <a href="#" class="close-icon"><i class="fas fa-caret-left"></i></a>
+            <a href="#running-routes" class="local-navbar-icon"><i class="fas fa-map-marker-alt"></i> Running Routes</a>
+            <a href="#group-runs" class="local-navbar-icon"><i class="fas fa-map-marker-alt"></i> Group Runs</a>
+            <a href="#running-clubs" class="local-navbar-icon"><i class="fas fa-map-marker-alt"></i> Running Clubs</a>
+            <a href="#swimming-pools" class="local-navbar-icon"><i class="fas fa-map-marker-alt"></i> Swimming Pools</a>
+   </div>
 
   <div class="div_scroll">
 
@@ -52,6 +59,7 @@
               </div>
 
     </div>
+
 
 
 

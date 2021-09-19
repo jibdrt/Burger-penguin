@@ -115,6 +115,10 @@
     width: fit-content;
 }
 
+.switch_project:hover{
+    -webkit-text-stroke: #222222 solid 1px !important;
+}
+
 
 
 
