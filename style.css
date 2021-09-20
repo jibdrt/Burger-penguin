@@ -113,6 +113,7 @@
 
 
 .switch_project{
+    position: relative;
     letter-spacing: -10px;
     font-family: sans-serif !important;
     cursor: pointer;
@@ -120,27 +121,24 @@
     text-shadow: black 2px 2px 2px;
 }
 
-.switch_project:hover{
-    -webkit-text-stroke: #222222 solid 1px !important;
 
+
+.switch_project::before{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #222222;
+    visibility: hidden;
+    transition: all 0.3s ease-in-out;
 }
 
-
-
-
-
-
-
-
-/* .square:hover{
-    transition: 1s;
-    transform-origin: center !important;
-    height: 50px;
+.switch_project:hover:before {
+    visibility: visible;
+    width: 100%;
 }
-
-.square:not(:hover){
-    transition: 1s;
-} */
 
 
 .spaceproject{
@@ -194,5 +192,7 @@
 *{
     margin: 0;
     padding: 0;
+
 }
+
 

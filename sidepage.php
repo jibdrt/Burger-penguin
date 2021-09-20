@@ -4,13 +4,22 @@ Nobis, modi necessitatibus explicabo quae nesciunt provident a autem consequatur
 
 
 <span class="innerabout">
+
+<p>
     HELLO,<br> I'M JB,<br> I DO WEBSITES.
+</p>
+
 </span>
 <style>
     .innerabout{
+
         text-decoration: none;
         font-size: 172px;
         color: black;
+    }
+    .innerabout>p{
+        margin-top: 32px;
+        margin-bottom: 32px;
     }
 </style>
 

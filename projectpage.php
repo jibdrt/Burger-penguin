@@ -16,7 +16,7 @@
     .wrap{
         display: grid;
         grid-template-rows: repeat(6, 1fr);
-        align-items: end;
+        margin-left: 1vw;
     }
     .inner{
         z-index: 0;
