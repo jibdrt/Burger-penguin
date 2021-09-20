@@ -49,14 +49,7 @@
                       <br>
 
                       <div class="about">
-                          <span>A</span>
-                          <span>&nbsp;</span>
-                          <span>P</span>
-                          <span>R</span>
-                          <span>O</span>
-                          <span>P</span>
-                          <span>O</span>
-                          <span>S</span>
+A PROPOS
                       </div>
                   </h1>
               </div>
@@ -93,10 +86,10 @@
 
 /*                     ---------------------------------------------------- */
 
-                    $('.switch_project').hover(function(){
-                        $(this).text('PROJECTS').slideDown(200);
+                    $('.about').hover(function(){
+                        $(this).text('ABOUT').slideDown(200);
                         },function(){
-                        $(this).text('PORTFOLIO').slideDown(200);
+                        $(this).text('A PROPOS').slideDown(200);
                         });
 
 /*                     ---------------------------------------------------- */

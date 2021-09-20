@@ -15,13 +15,15 @@
 <style>
     .wrap{
         display: grid;
-        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+        align-items: end;
     }
     .inner{
-        z-index: 999;
-        width: 100px;
-        height: 400px;
-        border: 1px black solid;
-        background-color: #fff;
+        z-index: 0;
+        width: 100vw;
+        height: 300px;
+        border: none;
+        border-color: #222222;
+        background-color: #222222;
     }
 </style>

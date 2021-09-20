@@ -148,9 +148,31 @@
 }
 
 .about{
+    position: relative;
     font-family: sans-serif !important;
     cursor: pointer;
     text-shadow: black 2px 2px 2px;
+    width: fit-content;
+    padding: 50px;
+    margin: -50px;
+}
+
+.about::before{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #222222;
+    visibility: hidden;
+    transition: all 0.3s ease-in-out;
+}
+
+
+.about:hover:before {
+    visibility: visible;
+    width: 100%;
 }
 
 /* .about>span:hover{
