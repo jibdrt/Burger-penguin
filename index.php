@@ -9,14 +9,7 @@
 </head>
 <body>
 
-  <a id="slide-button" class="menu-button btn mb-2" href="#"><i class="fas fa-map-marker-alt"></i> Menu</a>
-   <div id="local-navbar" class="local-navbar card card-body">                
-            <a href="#" class="close-icon"><i class="fas fa-caret-left"></i></a>
-            <a href="#running-routes" class="local-navbar-icon"><i class="fas fa-map-marker-alt"></i> Running Routes</a>
-            <a href="#group-runs" class="local-navbar-icon"><i class="fas fa-map-marker-alt"></i> Group Runs</a>
-            <a href="#running-clubs" class="local-navbar-icon"><i class="fas fa-map-marker-alt"></i> Running Clubs</a>
-            <a href="#swimming-pools" class="local-navbar-icon"><i class="fas fa-map-marker-alt"></i> Swimming Pools</a>
-   </div>
+
 
   <div class="div_scroll">
 
@@ -54,7 +47,17 @@
                         <span class="bgc">T</span>
                       </span>
                       <br>
-                      <span class="about">A PROPOS</span>
+
+                      <div class="about">
+                          <span>A</span>
+                          <span>&nbsp;</span>
+                          <span>P</span>
+                          <span>R</span>
+                          <span>O</span>
+                          <span>P</span>
+                          <span>O</span>
+                          <span>S</span>
+                      </div>
                   </h1>
               </div>
 
@@ -63,12 +66,11 @@
 
 
 
-
     <canvas class="frame"></canvas>
     <script src="main.js"></script>
 
-
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js"></script>
+<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
 
 
 <div></div>

@@ -65,6 +65,10 @@
     }
 }
 
+.content{
+    text-shadow: black 2px 2px 2px;
+}
+
 .global{
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
@@ -113,10 +117,12 @@
     font-family: sans-serif !important;
     cursor: pointer;
     width: fit-content;
+    text-shadow: black 2px 2px 2px;
 }
 
 .switch_project:hover{
     -webkit-text-stroke: #222222 solid 1px !important;
+
 }
 
 
@@ -144,14 +150,27 @@
 .about{
     font-family: sans-serif !important;
     cursor: pointer;
+    text-shadow: black 2px 2px 2px;
 }
+
+/* .about>span:hover{
+    transition: 1s;
+    margin-left: -16px;
+    margin-right: -16px;
+}
+
+.about>span:not(:hover){
+    transition: 1s;
+} */
 
 .topgap{
     height: 100px;
     display: none;
 }
 
+
 *{
     margin: 0;
     padding: 0;
 }
+
