@@ -84,8 +84,6 @@
                             $('.spaceproject').load("projectpage.php").toggle(1200);
                         });
 
-
-                        
                 });
 
                 

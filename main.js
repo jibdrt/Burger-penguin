@@ -103,7 +103,7 @@ const logic = () =>
 
 const loop = () =>
 {
-    power.before();                                 
+    power.before();      
     vectors.forEach(v=>v.update());
     ctx.clearRect(0,0,innerWidth,innerHeight);
     logic();
@@ -121,8 +121,4 @@ const main = () =>
     loop();
 }
 
-
 main();
-
-
-
