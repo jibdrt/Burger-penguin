@@ -19,7 +19,16 @@ Nobis, modi necessitatibus explicabo quae nesciunt provident a autem consequatur
     }
     .innerabout>p{
         margin-top: 32px;
-        margin-bottom: 32px;
+        margin-top: -56px !important;
+    }
+
+    @media screen and (max-width:700px) {
+        .innerabout{
+            font-size: 80px;
+        }
+        .glob{
+            margin-bottom: 40px;
+        }
     }
 </style>
 

@@ -50,9 +50,9 @@
 
 .brmobile{display:none;}
 
-@media screen and (max-width: 600px) {
-    .bgc, .dot{
-        font-size: 32px !important;
+@media screen and (max-width: 700px) {
+    .bgc, .about{
+        font-size: 64px !important;
     }
     .dot{
         margin-left: 0;

@@ -3,11 +3,11 @@
 
 <div id="contentproject" class="wrap">
     
-    <div class="inner"><button type="button" class="btn-close btn-close-white closebtn" aria-label="Close"></button></div>
+    <div class="inner"></div>
     <div class="inner cards">
-    <div></div>
 
-        <div class="cardtrial"></div>
+
+
 
     <div class="inner"></div>
     <div class="inner"></div>
