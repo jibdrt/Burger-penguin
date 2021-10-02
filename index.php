@@ -18,7 +18,9 @@
         <div class="spaceproject"></div>
 
               <div class="content name">
+
                   <h1>
+                      <span id="backbtn" class="bgc">RETOUR</span>
                         <div class="switch_project">
                             <span class="bgc">PROJETS</span>
 
@@ -56,6 +58,10 @@
 
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script
+  src="https://code.jquery.com/ui/1.13.0-rc.2/jquery-ui.min.js"
+  integrity="sha256-RQLbEU539dpygNMsBGZlplus6CkitaLy0btTCHcULpI="
+  crossorigin="anonymous"></script>
         <script>
 
 
@@ -80,8 +86,9 @@
 
 /*                     ---------------------------------------------------- */
 
+
                         $('.switch_project').click(function(){
-                            $('.spaceproject').load("projectpage.php").toggle(1200);
+                            $('#backbtn').show("slide", { direction: "right" }, 1000);
                         });
 
                 });
