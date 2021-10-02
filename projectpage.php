@@ -1,18 +1,11 @@
 
 
 
-<div id="contentproject" class="wrap">
-    
-    <div class="inner"></div>
-    <div class="inner cards">
-
-
-
-
-    <div class="inner"></div>
-    <div class="inner"></div>
-    
-</div>
+                <div id="contentproject" class="wrap">
+                    <div class="inner">
+                        <div class="cards"></div>
+                    </div>  
+                </div>
 
 <style>
 
