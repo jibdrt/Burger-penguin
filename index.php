@@ -20,9 +20,9 @@
               <div class="content name">
 
                   <h1>
-                      <span id="backbtn" class="bgc">RETOUR</span>
+                      <div id="backbtn_area"><p id="backbtn" class="bgc">RETOUR</p></div>
                         <div class="switch_project">
-                            <span class="bgc">PROJETS</span>
+                            <div><p class="bgc">PROJETS</p></div>
 
                         </div>
                         <br>
@@ -70,7 +70,7 @@
  /*                    ---------------------------------------------------- */
 
                     $(".about").click(function(){
-                        $("#sidespace").load("sidepage.php").toggle(1000);
+                        $( "#sidespace" ).load("sidepage.php").show( "fold", { direction: "down" }, 1000);
                     });
                     $("#sidespace").click(function(){
                         $("#sidecontent").toggle(1000);
@@ -98,9 +98,16 @@
 
 
                         $('#backbtn').click(function(){
-                            $('.spaceproject').hide();
-                            $('#backbtn').hide();
-                        })
+                            $('.spaceproject').hide( "drop", { direction: "down" }, "slow" );
+
+                        });
+
+
+                        $('#backbtn').click(function(){
+                            $('.spaceproject').hide( "drop", { direction: "down" }, "slow" );
+                        $('#backbtn').hide( "slide", { direction: "right" }, "slow");
+                        
+                        });
 
                 });
 

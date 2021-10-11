@@ -205,3 +205,8 @@ body{
     display: none;
     cursor: pointer !important;
 }
+
+#backbtn_area{
+    display: block;
+    height: 114px;
+}
