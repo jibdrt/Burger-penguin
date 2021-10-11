@@ -203,4 +203,5 @@ body{
 
 #backbtn{
     display: none;
+    cursor: pointer !important;
 }

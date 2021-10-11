@@ -82,14 +82,25 @@
                         $(this).text('ABOUT').slideDown(200);
                         },function(){
                         $(this).text('A PROPOS').slideDown(200);
+                        
                         });
 
 /*                     ---------------------------------------------------- */
 
 
                         $('.switch_project').click(function(){
+                            $('.spaceproject').load("projectpage.php").show();
                             $('#backbtn').show("slide", { direction: "right" }, 1000);
+
                         });
+
+/*                     ---------------------------------------------------- */
+
+
+                        $('#backbtn').click(function(){
+                            $('.spaceproject').hide();
+                            $('#backbtn').hide();
+                        })
 
                 });
 
