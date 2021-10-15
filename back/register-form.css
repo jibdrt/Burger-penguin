@@ -1,0 +1,127 @@
+/* @font-face {
+    font-family: 'Rubik-Bold';
+    src: url('Rubik-Bold.ttf');
+}
+
+
+
+
+body{
+    background: radial-gradient(#2b2b2b ,rgb(124, 161, 241));
+}
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    margin-top: 18%;
+}
+
+.lite{
+    border: 2px rgb(255, 255, 255) solid;
+    width: 26rem;
+    margin: 1rem;
+    border-radius: 50px;
+    padding-left: 5px;
+    background: black;
+    color: white;
+    border: 2px rgb(255, 255, 255) solid;
+    background: transparent;
+    font-family:'Rubik-Bold';
+}
+
+
+.lite1{
+    border: 2px rgb(255, 255, 255) solid;
+    width: 26rem;
+    margin: 1rem;
+    border-radius: 50px;
+    padding-left: 5px;
+    background: black;
+    color: white;
+    border: 2px rgb(255, 255, 255) solid;
+    background: transparent;
+    font-family:'Rubik-Bold';
+}
+
+.lite2{
+    border: 2px rgb(255, 255, 255) solid;
+    width: 26rem;
+    margin: 1rem;
+    border-radius: 50px;
+    padding-left: 5px;
+    background: black;
+    color: white;
+    border: 2px rgb(255, 255, 255) solid;
+    background: transparent;
+    font-family:'Rubik-Bold';
+}
+
+
+.lite3{
+    border: 2px rgb(255, 255, 255) solid;
+    width: 26rem;
+    margin: 1rem;
+    border-radius: 50px;
+    padding-left: 5px;
+    background: black;
+    color: white;
+    border: 2px rgb(255, 255, 255) solid;
+    background: transparent;
+    font-family:'Rubik-Bold';
+}
+
+
+#input-username{
+
+    width: 306px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+#input-email{
+
+    width: 346px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+#input-password{
+
+    width: 305px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+#input-confirmation{
+
+    width: 272px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+#submit{
+    display: flex;
+    margin: auto;
+    font-family: 'Rubik-Bold';
+    background: transparent;
+    width: 27rem;
+    justify-content: center;
+    border:rgb(255, 255, 255) 2px solid;
+    border-radius: 50px;
+    color: white;
+    
+}
+
+#submit:hover{
+    background-image: linear-gradient(#ffffff, #a5a5a55d, #8cd1ff34, #ffddee60);
+    box-shadow: -5px 20px 35px rgb(0, 0, 0);
+    cursor: pointer;
+    width: 5rem;
+    transition: 0.5s;
+}
+#submit:not(:hover){
+
+    transition: 0.5s;
+}
+ */

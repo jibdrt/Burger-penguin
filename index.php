@@ -97,7 +97,7 @@
 
 
 
-    <canvas class="frame"></canvas>
+<!--     <canvas class="frame"></canvas> -->
     <script src="main.js"></script>
 
 
@@ -119,7 +119,7 @@
  /*                    ---------------------------------------------------- */
 
                     $(".about").click(function(){
-                        $( "#sidespace" ).load("sidepage.php").show( "fold", { direction: "down" }, 1000);
+                        $( "#sidespace" ).load("sidepage.php").show();
                     });
                     $("#sidespace").click(function(){
                         $("#sidecontent").toggle(1000);

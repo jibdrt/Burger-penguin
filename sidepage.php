@@ -1,18 +1,19 @@
 <div id="sidecontent">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse dicta vero perferendis. Quis hic voluptate, reprehenderit doloribus amet molestias assumenda alias necessitatibus dolore esse rem natus ea asperiores vel maxime!
 Deleniti, temporibus possimus repellat exercitationem hic quod porro et architecto praesentium inventore? Optio animi sapiente provident a? Expedita beatae ducimus, architecto iusto debitis illo corporis sit! Maiores necessitatibus totam fuga?
-Nobis, modi necessitatibus explicabo quae nesciunt provident a autem consequatur accusantium eius aspernatur enim, quibusdam natus.
+<span style="color: white;">Nobis, modi necessitatibus explicabo quae nesciunt provident a autem consequatur accusantium eius aspernatur enim, quibusdam natus.</span><br>
 
-
-<span class="innerabout">
+<br>
+<span id="about_anchor" class="innerabout">
 
 <p>
     HELLO,<br> I'M JB,<br> I DO WEBSITES.
 </p>
 
 </span>
+
 <style>
     .innerabout{
-
+        margin-top: -120px;
         text-decoration: none;
         font-size: 172px;
         color: black;
@@ -30,6 +31,7 @@ Nobis, modi necessitatibus explicabo quae nesciunt provident a autem consequatur
             margin-bottom: 40px;
         }
     }
+    
 </style>
 
 

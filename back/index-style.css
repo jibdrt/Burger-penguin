@@ -1,0 +1,87 @@
+
+@font-face {
+    font-family: 'Rubik-Bold';
+    src: url('Rubik-Bold.ttf');
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+body{
+    background: #222222;
+}
+
+
+
+.bg{
+    background: radial-gradient( rgb(124, 161, 241), #222222 90%);
+    height: 70vh;
+    width: 60%;
+    margin:auto;
+    overflow: hidden;
+    margin-top:5%;
+    border-radius: 2rem;
+}
+
+
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    margin-top: 34vh;
+}
+
+
+
+.box{
+    border: 2px rgb(255, 255, 255) solid;
+    width: 10rem;
+    display: inline-block;
+    text-align: center;
+    background: transparent;
+    font-family:'Rubik-Bold';
+    font-size: 18px;
+    -webkit-transition: 0.8s ease-in;
+    -moz-transition: 0.8s ease-in;
+    -o-transition: 10s ease-in;
+    transition: 0.8s ease-in;
+/*     box-shadow: rgb(0, 0, 0) 1px 1px 1px; */
+}
+
+
+
+.register{
+border-radius: 80px 0px 0px 80px;
+}
+
+.register:hover{
+    background-image: linear-gradient(#ffffff, #a5a5a55d, #8cd1ff34, #ffddee60);
+    transform: translateX(-20px);
+    transition: all 0.5s ease-in-out;
+    box-shadow: 5px 20px 35px rgb(0, 0, 0);
+}
+
+
+
+
+
+
+.login{
+border-radius: 0px 80px 80px 0px;
+
+
+}
+
+.login:hover{
+    background-image: linear-gradient(#ffffff, #a5a5a55d, #8cd1ff34, #ffddee60);
+    transform: translateX(20px);
+    transition: all 0.5s ease-in-out;
+    box-shadow: -5px 20px 35px rgb(0, 0, 0);
+    
+
+
+    
+}
+
